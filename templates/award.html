@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body style="background-image: url({% static 'img/main3.jpg' %});background-size: 100% 100%;background-attachment: fixed;">
+{% include 'header.html' %}
+<div class="container mt-2">
+  <div class="jumbotron alert alert-primary" style="background-color:white;">
+      <br>
+    <h3>Awards</h3>
+      <hr>
+    <p>Lead singer in all the Event </p>
+
+  <ul style="font-size:23px;background-color:white;color:black;">
+      <li>Won Lokmat Rock De Patthe (Nanded) 2013.</li>
+      <li>Performed in Jambori Maidan Worli for Lokmat (Jan 2013)</li>
+      <li>Won Lokmat Rock De Patthe (Aurangabad) 2014.</li>
+      <li>Top 10 in Mood Indigo Mantra (December 2014).</li>
+      <li>1st Runner up in Rotary Youth Festival (2014)</li>
+      <li>Won Rotary Youth Festival (Aurangabad) 2015</li>
+      <li>Won Rotary Youth Festival (Aurangabad) 2016</li>
+      <li>Won Rotary Youth Festival (Aurangabad) 2017</li>
+      <li>Won Vodafone Rock Band Competition (Aurangabad) 2016</li>
+</ul>
+</div>
+      <div class="jumbotron alert alert-primary" style="background-color:white;">
+      <br>
+    <h3>Television Appearances</h3>
+          <hr>
+    <p>Lead singer in all the Event </p>
+    <ul style="font-size:23px;background-color:white;color:black;">
+    <li>Zee Yuva Sangeet Samrat (2017)</li>
+    <li>Colors Tv Rising Stars (2017)</li>
+    <li>Zee Parivar Awards (2020)</li>
+    </ul>
+</div>
+
+</div>
+
+
+{% include 'footer.html' %}
+</body>
+</html>
