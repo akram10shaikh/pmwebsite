@@ -1,0 +1,13 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="KVRao_class.Packeges.packex2.packex1" />
+          <option value="next.project24.xyz_app.views.xyz_app" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
