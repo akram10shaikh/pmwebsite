@@ -1,2 +1,3 @@
 # pmwebsite
-Pm website 
+
+This is a static website. Developed in HTML, CSS and JavaScript. 
